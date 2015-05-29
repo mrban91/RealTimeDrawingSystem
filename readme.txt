@@ -1,0 +1,29 @@
+REAL TIME DRAWING SYSTEM
+
+authors: nicolabresciani91@gmail.com
+         daniele.marinelli91@gmail.com
+
+PRE-REQUISITIES
+- Windows OS in order to run the .exe file
+- Be sure that the "palette.jpg" file is in the same folder of the .exe file
+- Webcam connected to your PC. The webcam must be motionless
+- Printed colour version of the sheet with crosses. The sheet must be motionless (we suggest to fasten the sheet with adhesive tape). 
+  The webcam has to be focused on the sheet with all the crosses visible
+
+HOW TO RUN THE SOFTWARE
+- Execute the .exe file. 
+
+HOW TO COMPILE THE CODE
+The code has been developed with NetBeans IDE 8.0.2.
+In order to compile the code you have to:
+- Install the OpenCV libraries, v2.4.9 [http://opencv.org/downloads.html]
+- Integrate the libraries with NetBeans [http://eyalarubas.com/opencv-installation-on-windows-netbeans-mingw.html]
+- Install the Qt libraries v5.4 [https://www.qt.io/download/]
+- Integrate the Qt libraries in NetBeans [http://wiki.netbeans.org/Talk:HowToSetup64-BitQt5WithNetBeans7.4OnWindows]
+- Enable the "WITH_QT" field in CMake
+- Right click on the project->Build->Qt->CustomDefinitions->Add->"LIBS +=C:/opencv/release/lib" [use your path]
+
+FOLDER STRUCTURE
+- /src contains the source file
+- /doc contains the code documentation
+- /bin contains the binary code with mandatory files for execution
