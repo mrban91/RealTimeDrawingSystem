@@ -27,3 +27,16 @@ FOLDER STRUCTURE
 - /src contains the source file
 - /doc contains the code documentation
 - /bin contains the binary code with mandatory files for execution
+
+BASIC INSTRUCTIONS
+- Execute the .exe file.
+- Use an illumination as stable and uniform as possible 
+- Use the video preview to make sure that the sheet is fully focused
+- Fix the webcam and paper 
+- Before clicking "start drawing" make sure nothing covers the sheet
+- After the calibration is performed use the addition windows to check if the parameters are set correctly:
+    - if the application does not identify your hand lower the hand identification threshold
+	- if the draw is too noisy increase the adaptive treshold shift or increase the size of the buffer
+- If some artefacts appear use the clean draw function
+- Use the save sketch button to save the draw
+- If the saved draw still present some buttons apply the filter to it by clicking on filter application.

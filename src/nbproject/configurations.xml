@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>Button.h</itemPath>
+      <itemPath>ButtonManager.h</itemPath>
+      <itemPath>CalibrationData.h</itemPath>
+      <itemPath>ColorDecision.h</itemPath>
+      <itemPath>Cross.h</itemPath>
+      <itemPath>Homography.h</itemPath>
+      <itemPath>InkDetection.h</itemPath>
+      <itemPath>Introduction.h</itemPath>
+      <itemPath>Parameters.h</itemPath>
+      <itemPath>SheetDetection.h</itemPath>
+      <itemPath>Utils.h</itemPath>
+      <itemPath>VideoAnalyzer.h</itemPath>
+      <itemPath>Welcome.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+      <itemPath>Introduction.ui</itemPath>
+      <itemPath>Welcome.ui</itemPath>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>Button.cpp</itemPath>
+      <itemPath>ButtonManager.cpp</itemPath>
+      <itemPath>CalibrationData.cpp</itemPath>
+      <itemPath>ColorDecision.cpp</itemPath>
+      <itemPath>Cross.cpp</itemPath>
+      <itemPath>Homography.cpp</itemPath>
+      <itemPath>InkDetection.cpp</itemPath>
+      <itemPath>Introduction.cpp</itemPath>
+      <itemPath>Parameters.cpp</itemPath>
+      <itemPath>SheetDetection.cpp</itemPath>
+      <itemPath>Utils.cpp</itemPath>
+      <itemPath>VideoAnalyzer.cpp</itemPath>
+      <itemPath>Welcome.cpp</itemPath>
+      <itemPath>main.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="4">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <qt>
+        <modules>core gui widgets</modules>
+        <defs>
+          <Elem>"LIBS +=C:/opencv/release/lib"</Elem>
+        </defs>
+      </qt>
+      <compileType>
+        <ccTool>
+          <incDir>
+            <pElem>C:/opencv/build/include</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <linkerLibItems>
+            <linkerLibFileItem>C:/opencv/release/lib/libopencv_calib3d2410.dll.a</linkerLibFileItem>
+            <linkerLibFileItem>C:/opencv/release/lib/libopencv_calib3d_pch_dephelp.a</linkerLibFileItem>
+            <linkerLibFileItem>C:/opencv/release/lib/libopencv_contrib2410.dll.a</linkerLibFileItem>
+            <linkerLibFileItem>C:/opencv/release/lib/libopencv_contrib_pch_dephelp.a</linkerLibFileItem>
+            <linkerLibFileItem>C:/opencv/release/lib/libopencv_core2410.dll.a</linkerLibFileItem>
+            <linkerLibFileItem>C:/opencv/release/lib/libopencv_core_pch_dephelp.a</linkerLibFileItem>
+            <linkerLibFileItem>C:/opencv/release/lib/libopencv_features2d2410.dll.a</linkerLibFileItem>
+            <linkerLibFileItem>C:/opencv/release/lib/libopencv_features2d_pch_dephelp.a</linkerLibFileItem>
+            <linkerLibFileItem>C:/opencv/release/lib/libopencv_flann2410.dll.a</linkerLibFileItem>
+            <linkerLibFileItem>C:/opencv/release/lib/libopencv_flann_pch_dephelp.a</linkerLibFileItem>
+            <linkerLibFileItem>C:/opencv/release/lib/libopencv_gpu2410.dll.a</linkerLibFileItem>
+            <linkerLibFileItem>C:/opencv/release/lib/libopencv_gpu_pch_dephelp.a</linkerLibFileItem>
+            <linkerLibFileItem>C:/opencv/release/lib/libopencv_haartraining_engine.a</linkerLibFileItem>
+            <linkerLibFileItem>C:/opencv/release/lib/libopencv_highgui2410.dll.a</linkerLibFileItem>
+            <linkerLibFileItem>C:/opencv/release/lib/libopencv_highgui_pch_dephelp.a</linkerLibFileItem>
+            <linkerLibFileItem>C:/opencv/release/lib/libopencv_imgproc2410.dll.a</linkerLibFileItem>
+            <linkerLibFileItem>C:/opencv/release/lib/libopencv_imgproc_pch_dephelp.a</linkerLibFileItem>
+            <linkerLibFileItem>C:/opencv/release/lib/libopencv_legacy2410.dll.a</linkerLibFileItem>
+            <linkerLibFileItem>C:/opencv/release/lib/libopencv_legacy_pch_dephelp.a</linkerLibFileItem>
+            <linkerLibFileItem>C:/opencv/release/lib/libopencv_ml2410.dll.a</linkerLibFileItem>
+            <linkerLibFileItem>C:/opencv/release/lib/libopencv_ml_pch_dephelp.a</linkerLibFileItem>
+            <linkerLibFileItem>C:/opencv/release/lib/libopencv_nonfree2410.dll.a</linkerLibFileItem>
+            <linkerLibFileItem>C:/opencv/release/lib/libopencv_nonfree_pch_dephelp.a</linkerLibFileItem>
+            <linkerLibFileItem>C:/opencv/release/lib/libopencv_objdetect2410.dll.a</linkerLibFileItem>
+            <linkerLibFileItem>C:/opencv/release/lib/libopencv_objdetect_pch_dephelp.a</linkerLibFileItem>
+            <linkerLibFileItem>C:/opencv/release/lib/libopencv_ocl2410.dll.a</linkerLibFileItem>
+            <linkerLibFileItem>C:/opencv/release/lib/libopencv_ocl_pch_dephelp.a</linkerLibFileItem>
+            <linkerLibFileItem>C:/opencv/release/lib/libopencv_perf_calib3d_pch_dephelp.a</linkerLibFileItem>
+            <linkerLibFileItem>C:/opencv/release/lib/libopencv_perf_core_pch_dephelp.a</linkerLibFileItem>
+            <linkerLibFileItem>C:/opencv/release/lib/libopencv_perf_features2d_pch_dephelp.a</linkerLibFileItem>
+            <linkerLibFileItem>C:/opencv/release/lib/libopencv_perf_gpu_pch_dephelp.a</linkerLibFileItem>
+            <linkerLibFileItem>C:/opencv/release/lib/libopencv_perf_highgui_pch_dephelp.a</linkerLibFileItem>
+            <linkerLibFileItem>C:/opencv/release/lib/libopencv_perf_imgproc_pch_dephelp.a</linkerLibFileItem>
+            <linkerLibFileItem>C:/opencv/release/lib/libopencv_perf_nonfree_pch_dephelp.a</linkerLibFileItem>
+            <linkerLibFileItem>C:/opencv/release/lib/libopencv_perf_objdetect_pch_dephelp.a</linkerLibFileItem>
+            <linkerLibFileItem>C:/opencv/release/lib/libopencv_perf_ocl_pch_dephelp.a</linkerLibFileItem>
+            <linkerLibFileItem>C:/opencv/release/lib/libopencv_perf_photo_pch_dephelp.a</linkerLibFileItem>
+            <linkerLibFileItem>C:/opencv/release/lib/libopencv_perf_stitching_pch_dephelp.a</linkerLibFileItem>
+            <linkerLibFileItem>C:/opencv/release/lib/libopencv_perf_superres_pch_dephelp.a</linkerLibFileItem>
+            <linkerLibFileItem>C:/opencv/release/lib/libopencv_perf_video_pch_dephelp.a</linkerLibFileItem>
+            <linkerLibFileItem>C:/opencv/release/lib/libopencv_photo2410.dll.a</linkerLibFileItem>
+            <linkerLibFileItem>C:/opencv/release/lib/libopencv_photo_pch_dephelp.a</linkerLibFileItem>
+            <linkerLibFileItem>C:/opencv/release/lib/libopencv_stitching2410.dll.a</linkerLibFileItem>
+            <linkerLibFileItem>C:/opencv/release/lib/libopencv_stitching_pch_dephelp.a</linkerLibFileItem>
+            <linkerLibFileItem>C:/opencv/release/lib/libopencv_superres2410.dll.a</linkerLibFileItem>
+            <linkerLibFileItem>C:/opencv/release/lib/libopencv_superres_pch_dephelp.a</linkerLibFileItem>
+            <linkerLibFileItem>C:/opencv/release/lib/libopencv_test_calib3d_pch_dephelp.a</linkerLibFileItem>
+            <linkerLibFileItem>C:/opencv/release/lib/libopencv_test_contrib_pch_dephelp.a</linkerLibFileItem>
+            <linkerLibFileItem>C:/opencv/release/lib/libopencv_test_core_pch_dephelp.a</linkerLibFileItem>
+            <linkerLibFileItem>C:/opencv/release/lib/libopencv_test_features2d_pch_dephelp.a</linkerLibFileItem>
+            <linkerLibFileItem>C:/opencv/release/lib/libopencv_test_flann_pch_dephelp.a</linkerLibFileItem>
+            <linkerLibFileItem>C:/opencv/release/lib/libopencv_test_gpu_pch_dephelp.a</linkerLibFileItem>
+            <linkerLibFileItem>C:/opencv/release/lib/libopencv_test_highgui_pch_dephelp.a</linkerLibFileItem>
+            <linkerLibFileItem>C:/opencv/release/lib/libopencv_test_imgproc_pch_dephelp.a</linkerLibFileItem>
+            <linkerLibFileItem>C:/opencv/release/lib/libopencv_test_legacy_pch_dephelp.a</linkerLibFileItem>
+            <linkerLibFileItem>C:/opencv/release/lib/libopencv_test_ml_pch_dephelp.a</linkerLibFileItem>
+            <linkerLibFileItem>C:/opencv/release/lib/libopencv_test_nonfree_pch_dephelp.a</linkerLibFileItem>
+            <linkerLibFileItem>C:/opencv/release/lib/libopencv_test_objdetect_pch_dephelp.a</linkerLibFileItem>
+            <linkerLibFileItem>C:/opencv/release/lib/libopencv_test_ocl_pch_dephelp.a</linkerLibFileItem>
+            <linkerLibFileItem>C:/opencv/release/lib/libopencv_test_photo_pch_dephelp.a</linkerLibFileItem>
+            <linkerLibFileItem>C:/opencv/release/lib/libopencv_test_stitching_pch_dephelp.a</linkerLibFileItem>
+            <linkerLibFileItem>C:/opencv/release/lib/libopencv_test_superres_pch_dephelp.a</linkerLibFileItem>
+            <linkerLibFileItem>C:/opencv/release/lib/libopencv_test_video_pch_dephelp.a</linkerLibFileItem>
+            <linkerLibFileItem>C:/opencv/release/lib/libopencv_ts2410.a</linkerLibFileItem>
+            <linkerLibFileItem>C:/opencv/release/lib/libopencv_ts_pch_dephelp.a</linkerLibFileItem>
+            <linkerLibFileItem>C:/opencv/release/lib/libopencv_video2410.dll.a</linkerLibFileItem>
+            <linkerLibFileItem>C:/opencv/release/lib/libopencv_video_pch_dephelp.a</linkerLibFileItem>
+            <linkerLibFileItem>C:/opencv/release/lib/libopencv_videostab2410.dll.a</linkerLibFileItem>
+            <linkerLibFileItem>C:/opencv/release/lib/libopencv_videostab_pch_dephelp.a</linkerLibFileItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="Button.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Button.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ButtonManager.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ButtonManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CalibrationData.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CalibrationData.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ColorDecision.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ColorDecision.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Cross.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Cross.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Homography.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Homography.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="InkDetection.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="InkDetection.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Introduction.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Introduction.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Introduction.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Parameters.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Parameters.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SheetDetection.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SheetDetection.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Utils.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Utils.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="VideoAnalyzer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="VideoAnalyzer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Welcome.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Welcome.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Welcome.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="4">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <qt>
+        <buildMode>1</buildMode>
+        <modules>core gui widgets</modules>
+      </qt>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="Button.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Button.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ButtonManager.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ButtonManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CalibrationData.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CalibrationData.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ColorDecision.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ColorDecision.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Cross.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Cross.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Homography.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Homography.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="InkDetection.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="InkDetection.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Introduction.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Introduction.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Introduction.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Parameters.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Parameters.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SheetDetection.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SheetDetection.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Utils.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Utils.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="VideoAnalyzer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="VideoAnalyzer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Welcome.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Welcome.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Welcome.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
